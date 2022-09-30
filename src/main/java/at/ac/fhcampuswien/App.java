@@ -168,6 +168,7 @@ public class App {
             z  = input % 10;
 
             System.out.println("" + x + y + z);
+
         }
     }
 
