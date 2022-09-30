@@ -12,8 +12,8 @@ public class App {
 
     //todo Task 2
     public void helloRobot(){
-        System.out.println("0123456789012345678901" + System.lineSeparator();
-        output += "         __" + System.lineSeparator() +
+        System.out.println("0123456789012345678901" + "System.lineSeparator");
+        String output = "         __" + System.lineSeparator() +
                 " _(\\    |@@|" + System.lineSeparator() +
                 "(__/\\__ \\--/ __" + System.lineSeparator() +
                 "   \\___|----|  |   __" + System.lineSeparator() +
@@ -23,11 +23,24 @@ public class App {
                 "      _)(  )(_" + System.lineSeparator() +
                 "     `---''---`" + System.lineSeparator();
         // input your solution here
+        System.out.print(output);
     }
 
     //todo Task 3
     public void sumOfLiterals(){
-        // input your solution here
+
+        System.out.println("");
+        char a = 'Z';
+        float b = 5.5f;
+        int c = 012;
+        int d = 0xface;
+        long e = 80l;
+        double f = 99.9;
+        double g = 44e-1f;
+        double h = 8.88e1;
+        int sum = a + (int) b + c + d + (int) e + (int) f + (int) g + (int) h;
+        System.out.println(sum);
+
     }
 
     //todo Task 4
