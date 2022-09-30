@@ -12,7 +12,7 @@ public class App {
 
     //todo Task 2
     public void helloRobot(){
-        System.out.println("0123456789012345678901" + "System.lineSeparator");
+        System.out.println("0123456789012345678901");
         String output = "         __" + System.lineSeparator() +
                 " _(\\    |@@|" + System.lineSeparator() +
                 "(__/\\__ \\--/ __" + System.lineSeparator() +
@@ -29,7 +29,6 @@ public class App {
     //todo Task 3
     public void sumOfLiterals(){
 
-        System.out.println("");
         char a = 'Z';
         float b = 5.5f;
         int c = 012;
