@@ -1,5 +1,6 @@
 package at.ac.fhcampuswien;
 
+import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class App {
@@ -44,7 +45,11 @@ public class App {
 
     //todo Task 4
     public void addTwoNumbers(){
-        // input your solution here
+        Scanner input = new Scanner(System.in);
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        int sum = num1 + num2;
+        System.out.println(sum);
     }
 
     //todo Task 5
