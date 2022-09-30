@@ -152,7 +152,23 @@ public class App {
 
     //todo Task 10
     public void transposedNumbers(){
-        // input your solution here
+        int x, y, z = 0;
+        System.out.print("Number: ");
+        Scanner a = new Scanner(System.in);
+        int input = a.nextInt();
+
+        if (input > 999) {
+            System.out.println("The input number is invalid!");
+        } else {
+
+            x   = input % 10;
+            input  = input / 10;
+            y = input % 10;
+            input  = input / 10;
+            z  = input % 10;
+
+            System.out.println("" + x + y + z);
+        }
     }
 
 
