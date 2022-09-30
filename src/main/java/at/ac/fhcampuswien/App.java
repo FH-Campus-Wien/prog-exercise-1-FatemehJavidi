@@ -54,17 +54,59 @@ public class App {
 
     //todo Task 5
     public void swapTwoNumbers(){
-        // input your solution here
+        Scanner a = new Scanner(System.in);
+        int num1 = a.nextInt();
+        int  num2 = a.nextInt();
+        System.out.println("Before Swap:");
+        System.out.print("x: ");
+        System.out.print("y: ");
+
+        num1 = num1 + num2;
+        num2 = num1 - num2;
+        num1 = num1 - num2;
+
+        System.out.println("After Swap:");
+        System.out.println("x: " + num1);
+        System.out.println("y: " + num2);
     }
 
     //todo Task 6
     public void compareTwoNumbers(){
-        // input your solution here
+        Scanner a = new Scanner(System.in);
+        int n1 = a.nextInt();
+        int n2 = a.nextInt();
+
+        System.out.print("n1: ");
+        System.out.print("n2: ");
+
+        if (n1 == n2) {
+            System.out.print("n1 == n2");
+        } else if (n1 < n2) {
+            System.out.print("n2 > n1");
+        } else {
+            System.out.print("n1 > n2");
+        }
+
+        System.out.println("");
     }
 
     //todo Task 7
     public void ratingSalesPerson(){
-        // input your solution here
+        System.out.print("Enter annual Revenue: ");
+        Scanner a = new Scanner(System.in);
+        int umsatz = a.nextInt();
+
+        if (umsatz < 0 || umsatz >= 100000) {
+            System.out.println("Invalid Revenue");
+        } else if (umsatz >= 80000) {
+            System.out.println("Excellent Sales Revenue");
+        } else if (umsatz >= 50000) {
+            System.out.println("Good Sales Revenue");
+        } else if (umsatz >= 20000) {
+            System.out.println("Average Sales Revenue");
+        } else {
+            System.out.println("Poor Sales Revenue");
+        }
     }
 
     //todo Task 8
